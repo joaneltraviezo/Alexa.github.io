@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Mix Vol.1</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="titulo">TE AMO</h1>
+  <div class="container">
+    <!-- Lista de canciones -->
+    <div class="playlist">
+      <div class="playlist-header">AWESOME MIX VOL.1</div>
+      <div class="songs-list">
+        <div class="song" data-song="Come And Get Your Love.mp3" data-bg="Guardianes.jpg">1. Come And Get Your Love</div>
+        <div class="song" data-song="Te quiero tanto.mp3" data-bg="te quiero.jpg">2. Te quiero tanto</div>
+        <div class="song" data-song="Halleys Comet.mp3" data-bg="halley.jpg">3. Halleys Comet</div>
+        <div class="song" data-song="Hostage.mp3" data-bg="hostage.jpg">4. Hostage</div>
+        <div class="song" data-song="Know No Better.mp3" data-bg="Know Justin.jpg">5. Know No Better</div>
+        <div class="song" data-song="One Less Lonely Girl.mp3" data-bg="One less.jpg">6. One Less Lonely Girl</div>
+        <div class="song" data-song="Enculado.mp3" data-bg="Enculado.jpg">7. Enculado</div>
+      </div>
+    </div>
+
+    <!-- Casete como imagen -->
+    <div class="cassette">
+      <img src="Casete2.png" alt="Cassette" />
+    </div>
+  </div>
+
+  <!-- Controles -->
+  <div class="controls">
+    <button class="control-btn" id="prevBtn"><i class='bx bx-skip-previous'></i></button>
+    <button class="control-btn" id="playBtn"><i class='bx bx-play'></i></button>
+    <button class="control-btn" id="pauseBtn"><i class='bx bx-pause'></i></button>
+    <button class="control-btn" id="nextBtn"><i class='bx bx-skip-next'></i></button>
+    <button class="control-btn" id="likeBtn"><i class='bx bx-heart'></i></button>
+  </div>
+
+  <!-- Botón siguiente página -->
+  <button id="nextPageBtn" class="next-page">Siguiente ➡</button>
+
+  <audio id="player"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
